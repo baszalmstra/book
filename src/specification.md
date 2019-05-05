@@ -2,6 +2,10 @@
 
 # Introduction
 
+## What is Mun?
+
+Mun is a strongly typed ahead of time compiled application programming language designed for extremely rapid iteration. The runtime can be embed in a host application or run separately with the `mun` binary.
+
 ## Case Study: Lua @ Abbey Games
 
 Changes in Lua code can have large implications throughout the entire codebase and since we cannot oversee the entire codebase at all times runtime errors are bound to occur. Runtime errors are nasty beasts because they can pop up after a long period of time and after work on the offending piece of code has already finished. They are also often detected by someone different from the person who worked on the code. This causes great frustration and delay, let alone when the runtime error is detected by a user of the software.
